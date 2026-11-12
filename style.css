@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+.circulo-1{
+  width:50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+  left: 300px;
+  animation-name: cambio-de-color-1;
+  Animation-duration: 10s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes cambio-de-color-1{
+  0%{
+    backgound-color: lightblue;
+  }
+  50%:{
+    background-color: blue;
+    top: 100px;
+    left: 500px;
+  }
+  100%{
+    background-color: purple;
+    top: 15px;
+    left: 600px;
+  }
+}
+
+.circulo-2{
+  width:50px;
+  height: 50px;
+  background-color: lightred;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+  left: 300px;
+  animation-name: cambio-de-color-2;
+  Animation-duration: 10s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes cambio-de-color-2{
+  0%{
+    backgound-color: lightred;
+  }
+  50%:{
+    background-color: lightorange;
+    top: 200px;
+    left: 500px;
+  }
+  100%{
+    background-color: orange;
+    top: 70px;
+    left: 700px;
+  }
+}
+.circulo-3{
+  width:200px;
+  height: 200px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  position: relative;
+  top: 200px;
+  left: 400px;
+  animation-name: cambio-de-color-3;
+  Animation-duration: 10s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes cambio-de-color-3{
+  0%{
+    backgound-color: lightgreen;
+  }
+  50%:{
+    background-color: white;
+    top: 500px;
+    left: 600px;
+    bottom: 700px;
+  }
+  100%{
+    background-color: green;
+    top: 0px;
+    left: 0px;
+  }
+}
